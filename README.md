@@ -10,8 +10,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Page Frontend Mentor]()
-- Live Site URL: [Page Public]()
+- Solution URL: [Page Frontend Mentor](https://www.frontendmentor.io/solutions/solution-nft-preview-card-component-solution-RhhQuNLRyo)
+- Live Site URL: [Page Public](https://frontendmentor-nft-preview-card-component.vercel.app/)
 
 ### Built with
 
