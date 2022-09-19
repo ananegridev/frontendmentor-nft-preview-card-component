@@ -1,0 +1,169 @@
+/* COLOR */
+
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --VerydarkblueBody: hsl(217, 54%, 11%);
+  --VerydarkblueMain: hsl(216, 50%, 16%);
+  --VerydarkblueLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* CSS RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* FONT */
+
+.font-300 {
+  font-weight: 300;
+}
+.font-600 {
+  font-weight: 600;
+}
+
+/* CSS */
+
+body {
+  min-height: 100vh;
+  background-color: var(--VerydarkblueBody);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 345px;
+  height: auto;
+  background-color: var(--VerydarkblueMain);
+  padding: 22px;
+  border-radius: 15px;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  background-color: hsl(178, 100%, 50%, 45%);
+  width: 100%;
+  height: 98%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.overview:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.view {
+  width: 45px !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: var(--White);
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.text {
+  line-height: 1.5;
+  color: var(--Softblue);
+  margin: 15px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+  color: var(--Cyan);
+}
+
+.eth p {
+  margin-left: 10px;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  color: var(--Softblue);
+}
+.days img {
+  width: 20px;
+  height: 20px;
+}
+.days p {
+  margin-left: 10px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 0 0;
+  border-top: 1px solid var(--VerydarkblueLine);
+}
+.creator img {
+  width: 35px;
+  border-radius: 100%;
+  border: 1px solid var(--White);
+  margin-right: 15px;
+}
+.creator p {
+  color: var(--Softblue);
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--White);
+}
+
+a:hover {
+  color: var(--Cyan);
+}
+
+/* CSS CREDITS*/
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: 8px;
+  color: var(--White);
+  text-transform: uppercase;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--Softblue);
+}
