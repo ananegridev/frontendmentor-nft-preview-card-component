@@ -152,6 +152,36 @@ a:hover {
   color: var(--Cyan);
 }
 
+@media (max-width: 350px) {
+  h1 {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .days p,
+  .days img {
+    margin-top: 10px;
+  }
+  .creator {
+    flex-direction: column;
+  }
+  .creator img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .creator p {
+    text-align: center;
+  }
+}
+
 /* CSS CREDITS*/
 
 .attribution {
