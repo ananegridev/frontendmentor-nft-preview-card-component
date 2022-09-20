@@ -198,3 +198,13 @@ a:hover {
   text-decoration: none;
   color: var(--Softblue);
 }
+
+@media only screen and (max-width: 768px) {
+  body{
+    flex-direction: column;
+  }
+  .attribution {
+    margin-top: 10px;
+    position: inherit;
+  }
+}
